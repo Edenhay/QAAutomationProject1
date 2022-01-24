@@ -1,7 +1,12 @@
-import java.util.ArrayList;
+package MainConverter;
+
+import CoinsPack.ILS;
+import CoinsPack.USD;
+import Results.resultList;
+
 import java.util.Scanner;
 
-public class Convert implements resultList{
+public class Convert implements resultList {
     public static void convert() {
         String choice;
         do {
@@ -41,7 +46,7 @@ public class Convert implements resultList{
             System.out.println("Do you want to use the Currency Converter again? Y/N");
             choice = input.next();
             while (!choice.equalsIgnoreCase("Y") && !choice.equalsIgnoreCase("N")) {
-                System.out.println("Invalid choice, Please try again \n Convert again ? Y/N");
+                System.out.println("Invalid choice, Please try again \n MainConverter.Convert again ? Y/N");
                 choice = input.next();
             }
             if (choice.equalsIgnoreCase("N")) {

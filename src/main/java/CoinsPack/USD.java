@@ -1,6 +1,10 @@
-public class ILS extends Coin {
+package CoinsPack;
 
-    final double value = 0.28;
+import CoinsPack.Coin;
+
+public class USD extends Coin {
+
+    final double value = 3.52;
 
     @Override
     double getValue() {
@@ -9,6 +13,7 @@ public class ILS extends Coin {
 
     @Override
     public double calculate(double input) {
+
         return input * getValue();
     }
 }

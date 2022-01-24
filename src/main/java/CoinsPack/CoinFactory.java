@@ -1,3 +1,7 @@
+package CoinsPack;
+
+import CoinsPack.Coins;
+
 public class CoinFactory {
 
     public static Coin getCoinInstance(Coins coin) {
