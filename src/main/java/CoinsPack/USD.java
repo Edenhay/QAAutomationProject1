@@ -1,7 +1,5 @@
 package CoinsPack;
 
-import CoinsPack.Coin;
-
 public class USD extends Coin {
 
     final double value = 3.52;

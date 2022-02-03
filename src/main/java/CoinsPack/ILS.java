@@ -1,7 +1,5 @@
 package CoinsPack;
 
-import CoinsPack.Coin;
-
 public class ILS extends Coin {
 
     final double value = 0.28;
